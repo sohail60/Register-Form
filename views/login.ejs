@@ -1,0 +1,22 @@
+<link href="/css/login.css" rel="stylesheet" type="text/css">
+
+<div class="box">
+    <div class="submit-heading">Login</div>
+    <form action="/login" method="POST" class="form" id="form">
+      <!-- Email -->
+        <div class="form-element default-form-element">
+        <label for="email">Email</label>
+        <input type="email" autoComplete='off' name="email" class='field' id="email" required />
+        </div>
+
+      <!-- Password -->
+        <div class="form-element default-form-element">
+        <label for="password">Password</label>
+        <input type="password" autoComplete='off' name="password" class='field' id="password" required />
+        </div>
+
+        <div class="btn-container">
+            <button class='btn' id="btn" type='submit'>Submit</button>
+        </div>
+    </form>
+</div>
