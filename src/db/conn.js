@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/Register-Form',{
+mongoose.connect('mongodb+srv://admin-sohail:sohail05star@cluster0.qqtkl7c.mongodb.net/?retryWrites=true&w=majority/Register-Form',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
